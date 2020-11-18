@@ -1,0 +1,9 @@
+- casedata:
+    {"mobilephone": "15689452589", "pwd": "1234567", "regname": "aaa"}
+  except:
+    {"status": 1, "code": "10001", "data": None, "msg": "注册成功"}
+
+- casedata:
+    {"mobilephone": "13656124536", "pwd": "1234567", "regname": "aaa"}
+  except:
+    {"status": 1, "code": "10001", "data": None, "msg": "注册成功"}

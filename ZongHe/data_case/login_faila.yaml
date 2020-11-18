@@ -1,0 +1,9 @@
+- casedata:
+    {"mobilephone": "1371234111a", "pwd": "1234567", "regname": "aaa"}
+  except:
+    {"status":0, "code": "20111", "data": None, "msg": "用户名或密码错误"}
+
+- casedata:
+    {"pwd": "1234567", "regname": "aaa"}
+  except:
+    {"status":0, "code": "20103", "data": None, "msg": "手机号不能为空"}
