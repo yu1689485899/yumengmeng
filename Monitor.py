@@ -14,7 +14,7 @@ print(psutil.disk_usage("d:/").percent)  # 租车系统所在的磁盘百分比
 print(psutil.net_io_counters())  # 网络
 print(psutil.net_io_counters().bytes_sent)  # 发送的字节数
 print(psutil.net_io_counters().bytes_recv)  # 接收的字节数
-
+print(333)
 # for i in range(3):
 #     print(psutil.cpu_percent())  # 获取cpu的信息
 #     print(psutil.virtual_memory())  # 虚拟的内存
